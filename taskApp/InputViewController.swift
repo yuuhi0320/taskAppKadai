@@ -64,7 +64,7 @@ class InputViewController: UIViewController {
         } else {
             content.title = task.title
         }
-        if content.body == "" {
+        if task.contents == "" {
             content.body = "(内容なし)"
         } else {
             content.body = task.contents
